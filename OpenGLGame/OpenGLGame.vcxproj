@@ -80,8 +80,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SolutionDir)../common\libs;$(SolutionDir)../common\libs\glfw-3.3.8\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)../common\libs\glfw-3.3.8\build\src\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)../common\libs\glm;$(SolutionDir)../common\libs\assimp-5.2.5\build\include;$(SolutionDir)../common\libs;$(SolutionDir)../common\libs\glfw-3.3.8\include;$(SolutionDir)../common\libs\assimp-5.2.5\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)../common\libs\glfw-3.3.8\build\src\Debug;$(SolutionDir)../common\libs\assimp-5.2.5\build\lib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -125,7 +125,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;assimp-vc142-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -151,6 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
+    <ClInclude Include="mesh.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>

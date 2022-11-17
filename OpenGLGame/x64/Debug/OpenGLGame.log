@@ -1,3 +1,12 @@
 ﻿  Source.cpp
-C:\Users\liam1\Documents\University Work\OpenGL-work\MyProject\openGLGame\OpenGLGame\Source.cpp(215,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  OpenGLGame.vcxproj -> C:\Users\liam1\Documents\University Work\OpenGL-work\MyProject\openGLGame\x64\Debug\OpenGLGame.exe
+C:\Users\liam1\Documents\University Work\OpenGL-work\MyProject\OpenGLGame\OpenGLGame\mesh.h(67,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\liam1\Documents\University Work\OpenGL-work\MyProject\OpenGLGame\OpenGLGame\Source.cpp(184,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\liam1\Documents\University Work\OpenGL-work\MyProject\OpenGLGame\OpenGLGame\Source.cpp(227,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\liam1\Documents\University Work\OpenGL-work\MyProject\OpenGLGame\OpenGLGame\Source.cpp(228,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\liam1\Documents\University Work\OpenGL-work\MyProject\OpenGLGame\OpenGLGame\Source.cpp(309,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\liam1\Documents\University Work\OpenGL-work\MyProject\OpenGLGame\OpenGLGame\Source.cpp(310,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\liam1\Documents\University Work\OpenGL-work\MyProject\OpenGLGame\OpenGLGame\Source.cpp(314,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\liam1\Documents\University Work\OpenGL-work\MyProject\OpenGLGame\OpenGLGame\Source.cpp(315,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\liam1\Documents\University Work\OpenGL-work\MyProject\OpenGLGame\OpenGLGame\Source.cpp(316,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\liam1\Documents\University Work\OpenGL-work\MyProject\OpenGLGame\OpenGLGame\Source.cpp(317,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  OpenGLGame.vcxproj -> C:\Users\liam1\Documents\University Work\OpenGL-work\MyProject\OpenGLGame\x64\Debug\OpenGLGame.exe
